@@ -12,7 +12,7 @@ namespace RazorToStringExample.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return View(new IndexViewModel("Hello World"));
         }
 
         public IActionResult About()
